@@ -6,6 +6,7 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { HomeComponent } from './home/home.component';
 import { NavBarComponent } from './home/nav-bar/nav-bar.component';
+import { CiaoAngeloComponent } from './home/ciao-angelo/ciao-angelo.component';
 
 
 @NgModule({
@@ -13,6 +14,7 @@ import { NavBarComponent } from './home/nav-bar/nav-bar.component';
     AppComponent,
     HomeComponent,
     NavBarComponent,
+    CiaoAngeloComponent,
 
 
   ],
