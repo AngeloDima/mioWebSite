@@ -7,6 +7,7 @@ import { AppComponent } from './app.component';
 import { HomeComponent } from './home/home.component';
 import { NavBarComponent } from './home/nav-bar/nav-bar.component';
 import { CiaoAngeloComponent } from './home/ciao-angelo/ciao-angelo.component';
+import { CorsiSecComponent } from './home/corsi-sec/corsi-sec.component';
 
 
 @NgModule({
@@ -15,6 +16,7 @@ import { CiaoAngeloComponent } from './home/ciao-angelo/ciao-angelo.component';
     HomeComponent,
     NavBarComponent,
     CiaoAngeloComponent,
+    CorsiSecComponent,
 
 
   ],
