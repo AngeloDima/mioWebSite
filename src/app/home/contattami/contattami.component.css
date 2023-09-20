@@ -1,5 +1,51 @@
 .container{
   width: 100%;
-  height: 100vh;
+  /* height: 100vh; */
+  display: flex;
+  flex-direction: column;
+}
 
+.up{
+  width: 100%;
+  height: 330px;
+  /* background-color: aqua; */
+  overflow-y: hidden;
+  position: relative;
+}
+
+.up img{
+  width: 100%;
+  position: absolute;
+  right: 0;
+  z-index: 3;
+}
+
+.up h1{
+  font-size: 19vw;
+  position: absolute;
+  bottom: -70px;
+  z-index: 2;
+  font-family: Italiana,sans-serif;
+  text-align: center;
+  font-weight: 400;
+  color: #252525;
+}
+
+.down{
+  width: 100%;
+  /* background-color: red; */
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 50px;
+  padding: 120px 0px 60px 0px;
+  overflow-y: hidden;
+}
+
+.card{
+  width: 440px;
+  height: 270px;
+  border-radius: 15px;
+  background-color: rgb(250, 250, 250);
+  box-shadow: 5px 5px 11px 0px #00000014;
 }
