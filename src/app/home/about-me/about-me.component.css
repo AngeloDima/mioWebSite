@@ -1,0 +1,149 @@
+* {
+  overflow-y: hidden;
+}
+
+
+
+
+
+
+/* Stile per Webkit (Chrome, Safari) */
+.secContent::-webkit-scrollbar {
+  width: 13px; /* larghezza della scrollbar */
+}
+
+.secContent::-webkit-scrollbar-thumb {
+  background-color: #ffffffd7; /* colore del thumb */
+  border-radius: 15px; /* stile del bordo del thumb */
+}
+
+.secContent::-webkit-scrollbar-track {
+  background-color: #141414; /* colore della barra */
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+
+.up {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  position: relative;
+  /* background-color: rgba(255, 0, 0, 0.137); */
+}
+
+.up h1 {
+  font-size: 19vw;
+  font-weight: 100;
+  text-align: center;
+  font-family: Italiana, sans-serif;
+  position: relative;
+}
+
+.up img {
+  position: absolute;
+  bottom: 0;
+}
+
+.down {
+  width: 100%;
+  background-color: rgb(0, 0, 0);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+}
+
+.secInfo {
+  display: flex;
+  width: 85%;
+  margin: auto;
+  padding: 30px 0px;
+}
+
+.secInfo h3 {
+  margin: 0px 100px 0px 0px;
+  font-family: 'Jost', sans-serif;
+  color: #fff;
+  font-weight: 500;
+}
+
+.secContent {
+  width: 85%;
+  height: 700px;
+  overflow-y:scroll;
+  margin: auto;
+  background-color: rgb(0, 0, 0);
+  position: relative;
+  border-top: 1px solid rgba(20, 20, 20, 0.63);
+  border-bottom: 1px solid rgb(32, 32, 32);
+  border-radius: 15px;
+}
+
+.secContent h2 {
+  color: #fff;
+  padding: 20px 0px;
+  font-size: 3rem;
+  font-family: 'Jost', sans-serif;
+  font-weight: 400;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  letter-spacing: 3px;
+  line-height: 80px;
+}
+
+#STORIA {
+  z-index: 3;
+  background-color: black;
+}
+
+#ESPERIENZE {
+  z-index: 2;
+  background-color: black;
+}
+
+#LINGUAGGI {
+  z-index: 1;
+  background-color: black;
+}
+
+
+.space{
+  width: 100%;
+  height: 50px;
+  /* background-color: rgb(153, 23, 23); */
+}
+
+
+
+.onda{
+  width: 100%;
+  height: 240px;
+  background-color: rgb(255, 255, 255);
+}
+
+.onda img{
+  max-width: 100%;
+}
+

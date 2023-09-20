@@ -8,6 +8,8 @@ import { HomeComponent } from './home/home.component';
 import { NavBarComponent } from './home/nav-bar/nav-bar.component';
 import { CiaoAngeloComponent } from './home/ciao-angelo/ciao-angelo.component';
 import { CorsiSecComponent } from './home/corsi-sec/corsi-sec.component';
+import { AboutMeComponent } from './home/about-me/about-me.component';
+import { ContattamiComponent } from './home/contattami/contattami.component';
 
 
 @NgModule({
@@ -17,6 +19,8 @@ import { CorsiSecComponent } from './home/corsi-sec/corsi-sec.component';
     NavBarComponent,
     CiaoAngeloComponent,
     CorsiSecComponent,
+    AboutMeComponent,
+    ContattamiComponent,
 
 
   ],
