@@ -1,1 +1,13 @@
-<p>animazione-competenze works!</p>
+<div class="container">
+  <div class="up">
+    <div class="title" *ngFor="let d of data">
+      <span>{{ d }}</span>
+    </div>
+  </div>
+
+  <div class="down">
+    <div class="title" *ngFor="let d of dataReverse">
+      <span>{{ d }}</span>
+    </div>
+  </div>
+</div>
