@@ -1,0 +1,28 @@
+.container{
+  width: 100%;
+  background-color: bisque;
+  position: relative;
+  overflow-y: hidden;
+}
+
+
+.up{
+  width: 100%;
+  background-color: rgb(255, 255, 255);
+}
+
+
+.up img{
+  width: 100%;
+
+}
+
+
+.up h1{
+  position: absolute;
+  top: 28%;
+  font-size: 15vw;
+  font-weight: 100;
+  font-family: Italiana,sans-serif;
+
+}
