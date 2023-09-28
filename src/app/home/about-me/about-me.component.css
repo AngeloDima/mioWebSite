@@ -137,6 +137,13 @@
 
 
 
+
+
+
+
+/* RESPONSIVE */
+
+
 @media (max-width: 1290px){
   .up h1{
     top: -15px
@@ -159,6 +166,20 @@
   }
 }
 
+@media (max-width: 790px){
+  .secInfo{
+    width: 100%;
+    justify-content: space-evenly;
+  }
+
+  .secInfo h3{
+    margin: 0;
+    font-size: 3vw;
+  }
+
+}
+
+
 
 @media (max-width: 780px){
   .up h1{
@@ -175,7 +196,13 @@
     transform: rotate(-4deg);
     padding-top: 15px;
   }
+
+
 }
+
+
+
+
 
 
 
@@ -189,4 +216,30 @@
   .up img{
     height: 90%;
   }
+
+  .secInfo{
+    justify-content: flex-start;
+    gap: 20px;
+    margin-left: 40px;
+  }
+
+  .secInfo h3{
+    font-size: 17px;
+  }
+}
+
+
+@media (max-width: 450px){
+  .secInfo{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin: 0;
+    gap: 45px;
+  }
+
+
+
+
+
 }
