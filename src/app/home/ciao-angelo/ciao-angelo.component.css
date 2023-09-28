@@ -85,19 +85,13 @@
 
 
 
-.dx{
-  width: 40%;
-  /* height: 100%; */
-  /* background-color: rgb(127, 255, 138); */
-  display: flex;
-  justify-content: center;
-  position: relative;
-}
+
 
 #io{
   max-height: 95%;
   position: absolute;
   bottom: 0;
+  right: 10%;
   z-index: 199;
 }
 
@@ -107,4 +101,128 @@
   left: 0;
   z-index: 999;
   width: 100%;
+}
+
+
+
+/* RESPONESIVE */
+
+@media (max-width: 1020px) {
+
+
+  #io{
+    display: none;
+  }
+
+  .sx{
+    width: 100%;
+  }
+
+  .sx h2{
+    font-size: 40px;
+  }
+
+  .sx h1{
+    font-size: 75px;
+  }
+
+
+  .sx h3{
+    font-size: 23px;
+  }
+
+  .sx p{
+    margin-top: 40px;
+    font-size: 22px;
+  }
+
+  .sx button{
+    width: 100%;
+    justify-content: center;
+    letter-spacing: 4px;
+  }
+
+
+}
+
+
+@media (max-width: 700px){
+
+
+
+  .sx h2{
+    font-size: 32px;
+  }
+
+  .sx h1{
+    font-size: 60px;
+  }
+
+
+  .sx h3{
+    font-size: 20px;
+  }
+
+  .sx p{
+    margin-top: 40px;
+    font-size: 19px;
+  }
+
+
+}
+
+
+
+@media (max-width: 580px){
+
+
+
+  .sx h2{
+    font-size: 30px;
+  }
+
+  .sx h1{
+    font-size: 50px;
+    letter-spacing: 4px;
+  }
+
+
+  .sx h3{
+    font-size: 17px;
+  }
+
+  .sx p{
+
+    font-size: 20px;
+  }
+
+
+}
+
+
+
+@media (max-width: 450px){
+
+
+
+  .sx h2{
+    font-size: 25px;
+  }
+
+  .sx h1{
+    font-size: 45px;
+    letter-spacing: 4px;
+  }
+
+
+  .sx h3{
+    font-size: 15px;
+  }
+
+  .sx p{
+
+    font-size: 20px;
+  }
+
+
 }
