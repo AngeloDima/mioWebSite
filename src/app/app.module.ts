@@ -13,6 +13,7 @@ import { ContattamiComponent } from './home/contattami/contattami.component';
 import { AnimazioneCompetenzeComponent } from './home/animazione-competenze/animazione-competenze.component';
 import { FreeLanceComponent } from './home/free-lance/free-lance.component';
 import { ContactMeComponent } from './home/contact-me/contact-me.component';
+import { SocialComponent } from './home/social/social.component';
 
 
 @NgModule({
@@ -27,6 +28,7 @@ import { ContactMeComponent } from './home/contact-me/contact-me.component';
     AnimazioneCompetenzeComponent,
     FreeLanceComponent,
     ContactMeComponent,
+    SocialComponent,
 
 
   ],
