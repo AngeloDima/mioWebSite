@@ -42,3 +42,122 @@ img{
   bottom: 8px;
   right: 0;
 }
+
+
+
+
+@media (max-width: 1000px){
+
+  img{
+    max-height: 35%;
+  }
+}
+
+
+@media (max-width: 900px){
+
+.forma{
+  justify-content: space-around;
+}
+
+
+  img{
+    max-height: 30%;
+  }
+}
+
+@media (max-width: 780px){
+
+  .forma{
+    flex-direction: column;
+  }
+
+  img{
+    max-height: 50%;
+  }
+
+  .container{
+    margin: 30px 0px 100px 0px;
+  }
+
+}
+
+
+
+@media (max-width: 710px){
+
+
+  img{
+    max-height: 40%;
+  }
+
+}
+
+
+@media (max-width: 550px){
+
+
+  img{
+    max-height: 35%;
+  }
+
+}
+
+
+@media (max-width: 460px){
+
+
+  img{
+    max-height: 30%;
+  }
+
+}
+
+@media (max-width: 400px){
+
+
+  img{
+    max-height: 25%;
+  }
+
+
+  .uni{
+    width: 290px;
+  }
+
+  #dot{
+    font-size: 70px;
+  }
+
+  #academy{
+    font-size: 30px;
+    bottom: 14%;
+  }
+
+}
+
+
+
+@media (max-width: 340px){
+
+
+  img{
+    max-height: 18%;
+  }
+
+
+  .uni{
+    width: 235px;
+  }
+
+  #dot{
+    font-size: 55px;
+  }
+
+  #academy{
+    font-size: 25px;
+    bottom: 21%;
+  }
+
+}
+
