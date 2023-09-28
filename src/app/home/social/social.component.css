@@ -6,9 +6,10 @@
 
 .Social {
   width: 100%;
-  border-top: 1px solid rgb(0, 0, 0);
+  border-top: 1px solid #252525;
   padding: 40px 0px;
-  transition: background-color 0.3s ease; /* Aggiungi una transizione per una transizione fluida */
+  transition: background-color 0.3s ease;
+  position: relative;
 }
 
 .Social h2 {
@@ -17,14 +18,28 @@
   font-family: Jost, sans-serif;
   font-weight: 400;
   color: #252525;
+  z-index: 999;
 }
 
-/* Aggiungi uno pseudo-selettore per la classe .Social quando si verifica l'hover */
+
 .Social:hover {
-  background-color: black;
+  background-color: rgb(31, 31, 31);
 }
 
-/* Cambia anche il colore del testo quando si verifica l'hover */
+
 .Social:hover h2 {
   color: #fff;
 }
+
+
+button{
+  width: 100%;
+  height: 100%;
+  background-color: rgba(255, 0, 0, 0);
+  position: absolute;
+  top: 0;
+  border: 0;
+}
+
+
+
