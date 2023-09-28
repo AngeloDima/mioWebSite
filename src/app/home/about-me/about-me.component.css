@@ -137,4 +137,56 @@
 
 
 
+@media (max-width: 1290px){
+  .up h1{
+    top: -15px
+  }
+}
 
+
+@media (max-width: 1220px){
+  .up h1{
+    top: -20px;
+    transform: rotate(-2deg);
+  }
+}
+
+
+@media (max-width: 845px){
+  .up h1{
+    top: -24px;
+    transform: rotate(-2deg);
+  }
+}
+
+
+@media (max-width: 780px){
+  .up h1{
+    top: -24px;
+    transform: rotate(-2deg);
+    padding-top: 8px;
+  }
+}
+
+
+@media (max-width: 715px){
+  .up h1{
+    top: -24px;
+    transform: rotate(-4deg);
+    padding-top: 15px;
+  }
+}
+
+
+
+@media (max-width: 600px){
+  .up h1{
+    top: -18px;
+    transform: rotate(-4deg);
+    padding-top: 15px;
+  }
+
+  .up img{
+    height: 90%;
+  }
+}
