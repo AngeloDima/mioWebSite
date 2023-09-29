@@ -177,6 +177,12 @@
     font-size: 3vw;
   }
 
+
+  .secContent{
+    width: 90%;
+  }
+
+
 }
 
 
@@ -195,6 +201,11 @@
     top: -24px;
     transform: rotate(-4deg);
     padding-top: 15px;
+  }
+
+
+  .secContent h2{
+    letter-spacing: 1px;
   }
 
 
@@ -239,7 +250,11 @@
   }
 
 
-
+  .secContent h2{
+    line-height: 50px;
+    font-size: 2rem;
+    font-weight: 500;
+  }
 
 
 }
