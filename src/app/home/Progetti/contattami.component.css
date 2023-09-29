@@ -49,3 +49,29 @@
   background-color: rgb(250, 250, 250);
   box-shadow: 5px 5px 11px 0px #00000014;
 }
+
+
+
+
+/* RESPONSIVE */
+
+@media(max-width: 1290px){
+  .up h1{
+    top: 15%;
+  }
+}
+
+
+
+@media(max-width: 800px){
+  .up h1{
+    top: 10%;
+  }
+}
+
+
+@media(max-width: 500px){
+  .up h1{
+    top: 6%;
+  }
+}
