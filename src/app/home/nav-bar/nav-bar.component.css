@@ -79,3 +79,19 @@ a:hover{
   }
 
 }
+
+
+@media (max-width: 470px){
+  .container2{
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 25px;
+  }
+}
+
+
+@media (max-width: 470px){
+  .container2 i{
+    transform: scale(1.1);
+  }
+}
