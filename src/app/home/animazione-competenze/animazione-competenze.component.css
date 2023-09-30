@@ -68,4 +68,11 @@ span{
 
 
 
+/* RESPONSIVE */
 
+
+@media (max-width:1290px){
+  .container{
+    display: none;
+  }
+}
