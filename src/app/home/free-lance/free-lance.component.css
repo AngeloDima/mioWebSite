@@ -147,7 +147,7 @@
 
 
 
-/* RESPONSIVE */
+/* RESPONSIVE SCRITTA*/
 
 
 @media (max-width:1290px){
@@ -203,4 +203,85 @@
   }
 
 
+}
+
+
+
+/* RESPONSIVE INFO SOTTO*/
+
+
+@media (max-width:990px){
+  .io{
+    bottom: 13%;
+  }
+  .io img{
+    max-width: 70%;
+  }
+
+  .info{
+    width: 75%;
+  }
+
+
+  .palla1 img{
+    top: 16%;
+    transform: scale(1.1);
+  }
+
+}
+
+
+@media (max-width:915px){
+  .io img{
+    display: none;
+  }
+
+  .info{
+    width: 100%;
+    padding-top: 40px;
+  }
+
+  .info p{
+    padding-right: 10%;
+    font-size: 22px;
+  }
+
+  .palla1 img{
+    top: 5%;
+    left: 2.5%;
+    filter: opacity(0.4);
+  }
+
+  .down{
+    padding-bottom: 60px;
+  }
+
+
+}
+
+
+
+
+
+@media(max-width: 860px){
+  .down{
+    margin-top: 80px;
+  }
+}
+
+
+@media (max-width:780px){
+  .palla1 img{
+    display: none;
+  }
+
+  .info p{
+
+    font-size: 20px;
+  }
+
+
+  .down{
+    margin-top: 60px;
+  }
 }
