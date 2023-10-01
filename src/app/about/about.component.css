@@ -1,0 +1,27 @@
+.nero {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 200vw;
+  height: 100vh;
+  background-color: #252422;
+  z-index: 999;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.nero {
+
+  transform: translateX(100%);
+  transition: transform 3s ease;
+}
+
+.nero.show {
+  transform: translateX(0%);
+}
+
+
+
+
+
+

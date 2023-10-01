@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-nav-bar',
@@ -7,9 +7,14 @@ import { Component } from '@angular/core';
   styleUrls: ['./nav-bar.component.css']
 })
 export class NavBarComponent {
+  showRedOverlay = false;
 
-  about() {
+  constructor(private router: Router) { }
 
+  transition() {
+    this.showRedOverlay = true;
+    setTimeout(() => {
+      this.router.navigate(['/about']);
+    }, 2000);
   }
-
 }

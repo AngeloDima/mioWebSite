@@ -1,12 +1,14 @@
 <div class="lalla">
   <div class="container">
-    <a routerLink="/about"> ABOUT ME </a>
+    <a (click)="transition()"> ABOUT ME </a>
     <a> CORSI </a>
     <a> FREELANCE </a>
     <a> CONTATTAMI </a>
     <a> DOWNLOAD CV </a>
   </div>
+  <div class="nero" [ngClass]="{'show': showRedOverlay}">
 
+  </div>
 
 
 
