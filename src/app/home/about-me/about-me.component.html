@@ -6,9 +6,9 @@
 
   <div class="down">
     <div class="secInfo">
-      <h3>LA MIA STORIA</h3>
-      <h3>ESPERIENZE</h3>
-      <h3>EDUCAZIONE</h3>
+      <h3 (click)="selezioneSezione('STORIA')">LA MIA STORIA</h3>
+      <h3 (click)="selezioneSezione('ESPERIENZE')">ESPERIENZE</h3>
+      <h3 (click)="selezioneSezione('LINGUAGGI')">EDUCAZIONE</h3>
     </div>
     <div class="secContent">
       <!-- --------------------------------------------------------------------- -->
@@ -17,7 +17,9 @@
       <!-- --------------------------------------------------------------------- -->
       <!-- --------------------------------------------------------------------- -->
       <!-- --------------------------------------------------------------------- -->
-      <h2 id="STORIA">La mia avventura nel mondo della programmazione è iniziata nel 2022, quando ho intrapreso un
+      <h2 id="STORIA" [hidden]="selectedSection !== 'STORIA'">La mia avventura nel mondo della programmazione è iniziata
+        nel 2022, quando ho
+        intrapreso un
         eccitante viaggio di apprendimento presso l'Accademia Online di Boolean. Qui, ho abbracciato la passione per lo
         sviluppo web e ho iniziato il mio percorso come Full Stack Web Developer.
 
@@ -43,7 +45,9 @@
       <!-- --------------------------------------------------------------------- -->
       <!-- --------------------------------------------------------------------- -->
       <!-- --------------------------------------------------------------------- -->
-      <h2 id="ESPERIENZE">Durante il mio emozionante percorso formativo presso le diverse Accademie, ogni giorno ho
+      <h2 id="ESPERIENZE" [hidden]="selectedSection !== 'ESPERIENZE'">Durante il mio emozionante percorso formativo
+        presso le diverse Accademie,
+        ogni giorno ho
         affrontato sfide stimolanti. Ho dedicato ore a esercitazioni pratiche e alla creazione di siti web e
         applicazioni, spingendomi costantemente oltre i miei limiti.
 
@@ -60,7 +64,9 @@
       <!-- --------------------------------------------------------------------- -->
       <!-- --------------------------------------------------------------------- -->
       <!-- --------------------------------------------------------------------- -->
-      <h2 id="LINGUAGGI">Dopo aver esplorato un vasto universo di linguaggi di programmazione, ho finalmente trovato le
+      <h2 id="LINGUAGGI" [hidden]="selectedSection !== 'LINGUAGGI'">Dopo aver esplorato un vasto universo di linguaggi
+        di programmazione, ho
+        finalmente trovato le
         mie passioni e mi sto specializzando in due straordinari campi: Angular e Java con Spring Boot.
 
         Con Angular, ho scoperto un framework che ha catturato la mia immaginazione e ha alimentato la mia creatività
@@ -85,9 +91,4 @@
     <div class="space"></div>
 
   </div>
-
-
-
-
-
 </div>

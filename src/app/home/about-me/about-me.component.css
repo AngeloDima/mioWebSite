@@ -26,14 +26,6 @@
 
 
 
-
-
-
-
-
-
-
-
 .container {
   width: 100%;
   display: flex;
@@ -114,17 +106,17 @@
 }
 
 #STORIA {
-  z-index: 3;
+  /* z-index: 3; */
   background-color: black;
 }
 
 #ESPERIENZE {
-  z-index: 2;
+  /* z-index: 2; */
   background-color: black;
 }
 
 #LINGUAGGI {
-  z-index: 1;
+  /* z-index: 1; */
   background-color: black;
 }
 
