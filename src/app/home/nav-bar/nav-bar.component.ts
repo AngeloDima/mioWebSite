@@ -15,6 +15,6 @@ export class NavBarComponent {
     this.showRedOverlay = true;
     setTimeout(() => {
       this.router.navigate(['/about']);
-    }, 2000);
+    }, 700);
   }
 }

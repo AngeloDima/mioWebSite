@@ -14,7 +14,7 @@ export class ABOUTComponent implements OnInit {
 
     setTimeout(() => {
       this.showRedOverlay = false;
-    }, 500);
+    }, 700);
   }
 
 }

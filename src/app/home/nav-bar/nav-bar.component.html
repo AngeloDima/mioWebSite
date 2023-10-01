@@ -6,15 +6,11 @@
     <a> CONTATTAMI </a>
     <a> DOWNLOAD CV </a>
   </div>
-  <div class="nero" [ngClass]="{'show': showRedOverlay}">
 
-  </div>
-
-
-
+  <div class="nero" [ngClass]="{'show': showRedOverlay}"></div>
 
   <div class="container2">
-    <i class="fa-solid fa-user" style="color: #ffffff;"></i>
+    <i class="fa-solid fa-user" style="color: #ffffff;" (click)="transition()"></i>
     <i class="fa-solid fa-code" style="color: #ffffff;"></i>
     <i class="fa-solid fa-cart-plus" style="color: #ffffff;"></i>
     <i class="fa-solid fa-phone" style="color: #ffffff;"></i>
