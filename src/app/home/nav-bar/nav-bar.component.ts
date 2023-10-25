@@ -9,27 +9,27 @@ import { Component } from '@angular/core';
 export class NavBarComponent {
 
   abo() {
-    // Calcola la percentuale dello scorrimento
-    const windowHeight = window.innerHeight;
-    const scrollPercentage = 1.5; // Puoi impostare la percentuale desiderata
 
-    // Sposta la pagina in base alla percentuale
+    const windowHeight = window.innerHeight;
+    const scrollPercentage = 1.5;
+
+
     window.scrollTo({
       top: windowHeight * scrollPercentage,
-      behavior: 'smooth' // Questo rende lo scorrimento animato
+      behavior: 'smooth'
     });
   }
 
 
   cor() {
-    // Calcola la percentuale dello scorrimento
-    const windowHeight = window.innerHeight;
-    const scrollPercentage = 0.8; // Puoi impostare la percentuale desiderata
 
-    // Sposta la pagina in base alla percentuale
+    const windowHeight = window.innerHeight;
+    const scrollPercentage = 0.8;
+
+
     window.scrollTo({
       top: windowHeight * scrollPercentage,
-      behavior: 'smooth' // Questo rende lo scorrimento animato
+      behavior: 'smooth'
     });
   }
 
@@ -37,28 +37,28 @@ export class NavBarComponent {
 
 
   freel() {
-    // Calcola la percentuale dello scorrimento
-    const windowHeight = window.innerHeight;
-    const scrollPercentage = 6.1; // Puoi impostare la percentuale desiderata
 
-    // Sposta la pagina in base alla percentuale
+    const windowHeight = window.innerHeight;
+    const scrollPercentage = 6.1;
+
+
     window.scrollTo({
       top: windowHeight * scrollPercentage,
-      behavior: 'smooth' // Questo rende lo scorrimento animato
+      behavior: 'smooth'
     });
   }
 
 
 
   contact() {
-    // Calcola la percentuale dello scorrimento
-    const windowHeight = window.innerHeight;
-    const scrollPercentage = 7.4; // Puoi impostare la percentuale desiderata
 
-    // Sposta la pagina in base alla percentuale
+    const windowHeight = window.innerHeight;
+    const scrollPercentage = 7.4;
+
+
     window.scrollTo({
       top: windowHeight * scrollPercentage,
-      behavior: 'smooth' // Questo rende lo scorrimento animato
+      behavior: 'smooth'
     });
   }
 
